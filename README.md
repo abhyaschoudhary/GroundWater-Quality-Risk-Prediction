@@ -1,5 +1,4 @@
 # 💧 Groundwater Quality Risk Predictor
-#### Video Demo: [( https://youtu.be/DkKbC_R9Gv8 )]
 #### Description:
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
@@ -8,7 +7,7 @@
 ![Pytest](https://img.shields.io/badge/Tested%20with-pytest-0A9EDC?logo=pytest&logoColor=white)
 ![License](https://img.shields.io/badge/BIS-IS%2010500%3A2012-1f6feb)
 
-> A machine learning tool that predicts whether groundwater is **Safe** or **Unsafe** to drink, using real government water-quality data and official Indian drinking water standards (BIS IS 10500:2012).
+> A machine learning tool that predicts whether groundwater is **Safe** or **Unsafe** to drink, using real government water-quality data and official Indian drinking water standards (BIS IS 10500:2012). Built as part of the **IBM Project-Based Experiential Learning (PBEL)** program.
 
 ---
 
@@ -24,7 +23,7 @@ The project is intentionally **dataset-flexible**: different groundwater dataset
 
 Millions of people in India rely on groundwater for drinking, but groundwater contamination — excess fluoride causing fluorosis, high chloride/sulfate from industrial or agricultural runoff, or elevated nitrate — is a well-documented public health issue in several states. Comprehensive well-by-well laboratory testing is expensive and slow.
 
-This project explores whether a lightweight predictive model, trained on publicly available water quality readings, can help **prioritize which districts most urgently need proper testing** — turning limited testing budgets into targeted interventions rather than random sampling.
+This project explores whether a lightweight predictive model, trained on publicly available water quality readings, can help **prioritize which districts most urgently need proper testing** — turning limited testing budgets into targeted interventions rather than random sampling. This directly reflects the social-impact focus of the IBM PBEL program: applying technical skills to a real, community-relevant problem.
 
 ---
 
@@ -131,3 +130,12 @@ test_project.py::test_clean_data PASSED
 ```
 
 Tests cover straightforward safe/unsafe cases, multiple simultaneous violations, missing/partial parameters, and non-standard column naming.
+
+---
+
+## 🌍 Relevance to IBM PBEL
+
+This project was developed as part of the **IBM Project-Based Experiential Learning (PBEL)** program, which emphasizes applying technical skills to solve real, socially relevant problems. It demonstrates:
+- Use of **real government open data** (CGWB, via Kaggle) rather than synthetic/toy datasets
+- A clear **social impact narrative** — helping prioritize limited water-testing resources toward high-risk communities
+- End-to-end engineering: data cleaning, machine learning, automated testing, and a usable interface — not just a model in a notebook
