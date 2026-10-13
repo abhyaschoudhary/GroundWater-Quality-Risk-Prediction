@@ -1,11 +1,15 @@
 # 💧 Groundwater Quality Risk Predictor
 ## Project Presentation (PPT)
 
+🌐 Explore the Live Application
+https://groundwater-risk-predictor.streamlit.app
+
+
 Click here to view the presentation:
 
-https://docs.google.com/presentation/d/1fbDrklNXTfOyRbRIwjRqN4VyTUICq8_5/edit?usp=sharing&ouid=117202746533021134074&rtpof=true&sd=true
+https://docs.google.com/presentation/d/1fbDrklNXTfOyRbRIwjRqN4VUICq8_5/edit?usp=sharing&ouid=117202746533021134074&rtpof=true&sd=true
 
-#### Description:
+#### Description:yT
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-RandomForest-F7931E?logo=scikitlearn&logoColor=white)
